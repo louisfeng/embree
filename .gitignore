@@ -3,3 +3,11 @@
 *.orig
 *.swp
 /bin
+x64
+Win32
+*.opensdf
+*.sdf
+*.suo
+*.vcxproj.user
+/Backup
+ipch
