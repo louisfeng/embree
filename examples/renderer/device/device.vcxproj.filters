@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="loaders">
+      <UniqueIdentifier>{f9753ea9-6d39-43f8-8403-940455e07847}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="loaders\loaders.cpp">
+      <Filter>loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders\obj_loader.cpp">
+      <Filter>loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders\xml_loader.cpp">
+      <Filter>loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders\xml_parser.cpp">
+      <Filter>loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="device.cpp" />
+    <ClCompile Include="handle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="loaders\loaders.h">
+      <Filter>loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders\obj_loader.h">
+      <Filter>loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders\xml_loader.h">
+      <Filter>loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders\xml_parser.h">
+      <Filter>loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="device.h" />
+    <ClInclude Include="handle.h" />
+  </ItemGroup>
+</Project>
